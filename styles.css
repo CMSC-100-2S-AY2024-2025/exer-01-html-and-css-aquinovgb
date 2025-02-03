@@ -1,0 +1,25 @@
+#header {
+  border: 1px solid red;
+  background-color: darkgoldenrod;
+  height: 10vh;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.header1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header3 {
+  border: 1px solid black;
+  padding: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.container .header3 {
+  background-color: red;
+}
+
+.container > .content > .header3 {
+  background-color: brown;
+}
