@@ -1,25 +1,112 @@
-#header {
-  border: 1px solid red;
-  background-color: darkgoldenrod;
-  height: 10vh;
-  padding: 0px 15px;
+body{
+  background-color: #2C3333;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, h4, p, a{
+  font-family: Helvetica, sans-serif;
+  justify-self: center;
+}
+
+h2{
+  color: #CBE4DE;
+}
+
+.header{
+  height: 8vh;
   display: flex;
+  padding: 0px 30px 50px 30px;
+  background-color: #CBE4DE;
+  color: #0E8388;
+  border-style: solid;  
+  border-top: none;
+  border-radius: 0px 0px 15px 15px;
+  border-color: #0E8388;
+  font-size: 20px;
+  font-family: "Gill Sans MT", Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.footer{
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px;
+  background-color: #CBE4DE;
+  color: #0E8388;
+  border-style: solid;  
+  border-top: none;
+  border-radius: 15px 15px 0px 0px;
+  border-color: #0E8388;
+  
+}
+
+.container{
+  margin: 30px 60px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #0E8388;
+  display:flex;
+}
+
+.container > .container{
+  margin: 30px 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E4F4F;
+  color: #CBE4DE;
+}
+
+#featured_photo{
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  margin: 20px 20px 20px 20px;
+}
+
+
+#left_container{
+  width: 42%;
+}
+
+#right_container{
+  width: 58%;
+  text-align: center;
+}
+
+#skills_container{
+  display: flex;
+  align-items: center;  
+  justify-items: center;
   justify-content: center;
 }
 
-.header1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-.header3 {
-  border: 1px solid black;
-  padding: 5px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+#skills_container > div{
+  width: 50%;
+  padding: 20px 50px;
 }
 
-.container .header3 {
-  background-color: red;
+#proj_container{
+  display: flex;
+  align-items: center;  
+  justify-items: center;
+  justify-content: center;
 }
 
-.container > .content > .header3 {
-  background-color: brown;
+#proj_container > div{
+  width: 50%;
+  padding: 20px 50px;
 }
+
+.proj_photo{
+  display: block;
+  max-width:60%;
+  max-height:60%;
+  width: auto;
+  height: auto;
+}
+
+
